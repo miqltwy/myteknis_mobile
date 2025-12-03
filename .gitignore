@@ -1,0 +1,116 @@
+# =======================================
+# Miscellaneous
+# =======================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# =======================================
+# IntelliJ/Android Studio
+# =======================================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# if you want vscode settings in git, comment this out
+.vscode/
+
+# =======================================
+# Flutter/Dart/Pub related
+# =======================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# =======================================
+# ANDROID
+# =======================================
+android/.gradle/
+android/local.properties
+android/key.properties
+android/key.jks
+android/captures/
+android/app/*.keystore
+android/app/*.jks
+
+# Gradle build
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/build/
+
+# =======================================
+# iOS
+# =======================================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/.last_build_id
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode user data
+ios/*.xcworkspace/
+ios/*.xcuserdata/
+
+# Build artifacts
+ios/build/
+
+# =======================================
+# macOS
+# =======================================
+macos/Pods/
+macos/Flutter/ephemeral/
+macos/*.xcworkspace/
+macos/*.xcuserdata/
+
+# =======================================
+# Windows
+# =======================================
+windows/flutter/ephemeral/
+
+# =======================================
+# Linux
+# =======================================
+linux/flutter/ephemeral/
+
+# =======================================
+# Web
+# =======================================
+web/.dart_tool/
+
+# =======================================
+# Firebase / Sensitive Keys
+# =======================================
+google-services.json
+GoogleService-Info.plist
+firebase_app_id_file.json
+serviceAccountKey.json
+
+# =======================================
+# Logs / Temp
+# =======================================
+*.tmp
+*.temp
+*.log
